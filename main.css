@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+#blocklyDiv {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+#output {
+  height: 50%;
+  width: 50%;
+  float: right;
+  border: none;
+  padding: 0;
+}
+
+#holder {
+  /* height: 50%; */
+  width: 50%;
+  float: right;
+  border: none;
+  padding: 0;
+  display: inline;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+#canvas {
+  width: 100%;
+  outline: 1px solid;
+}
+
+
+button.ui {
+  background: rgb(255, 102, 0);
+  border: none;
+  border-radius: 0.2em;
+  font-size: x-large;
+  margin: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
